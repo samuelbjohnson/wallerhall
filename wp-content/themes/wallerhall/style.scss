@@ -1,0 +1,58 @@
+/*
+ Theme Name:   Waller Hall
+ Description:  Child theme used for the waller hall site
+ Author:       Samuel B. Johnson
+ Author URI:   http://samuelbjohnson.com
+ Template:     stock
+ Version:      0.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  stock-child
+*/
+
+$primary-color: #AA3939;
+$darker-primary: #5C0E0E;
+$lighter-primary: #F9928C;
+
+$background: #FFEACB;
+$dark-background: #0D0900;
+$not-dark-background: #F9CD8C;
+
+#masthead,
+#colophon {
+	width: 100%;
+	background: linear-gradient(-15deg, $primary-color, $darker-primary);
+	color: $background;
+	font-weight: 300;
+	font-family: 'Special Elite', cursive;
+}
+
+h1.site-title {
+	font-family: 'Special Elite', cursive;
+}
+
+
+body {
+	background-color: $background;
+	color: $dark-background;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	color: $dark-background;
+	font-family: 'Forum', serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+#secondary {
+	border-left: 1px solid $not-dark-background;
+}
+
+.widget {
+	border-bottom: 1px solid $not-dark-background;
+}
