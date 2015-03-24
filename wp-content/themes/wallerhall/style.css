@@ -16,10 +16,10 @@
   background: linear-gradient(-15deg, #aa3939, #5c0e0e);
   color: #ffeacb;
   font-weight: 300;
-  font-family: 'Special Elite', cursive; }
+  font-family: "Special Elite", cursive; }
 
 h1.site-title {
-  font-family: 'Special Elite', cursive; }
+  font-family: "Special Elite", cursive; }
 
 body {
   background-color: #ffeacb;
@@ -31,7 +31,7 @@ input,
 select,
 textarea {
   color: #0d0900;
-  font-family: 'Forum', serif;
+  font-family: "Forum", serif;
   font-size: 16px;
   line-height: 1.5; }
 
