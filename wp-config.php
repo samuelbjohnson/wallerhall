@@ -14,23 +14,21 @@
  * @package WordPress
  */
 
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/wallerhall/wordpress');
-define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/wallerhall');
+define('WP_SITEURL', 'http://samuelbjohnson.com/wallerhall/wordpress');
+define('WP_HOME',    'http://samuelbjohnson.com/wallerhall');
 
-define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wallerhall/wp-content');
-define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/wallerhall/wp-content');
-
-define('WP_DEFAULT_THEME', 'twentytwelve');
+define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content');
+define('WP_CONTENT_URL', 'http://samuelbjohnson.com/wallerhall/wp-content');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'waller');
+define('DB_NAME', 'samuelbj_wallerhall');
 
 /** MySQL database username */
-define('DB_USER', 'waller');
+define('DB_USER', 'samuelbj_waller');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'waller');
+define('DB_PASSWORD', 'samuelbj_waller');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
