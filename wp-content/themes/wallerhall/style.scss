@@ -11,13 +11,7 @@
  Text Domain:  stock-child
 */
 
-$primary-color: #AA3939;
-$darker-primary: #5C0E0E;
-$lighter-primary: #F9928C;
-
-$background: #FFEACB;
-$dark-background: #0D0900;
-$not-dark-background: #F9CD8C;
+@import 'theme-constants';
 
 #masthead,
 #colophon {
@@ -25,11 +19,11 @@ $not-dark-background: #F9CD8C;
 	background: linear-gradient(-15deg, $primary-color, $darker-primary);
 	color: $background;
 	font-weight: 300;
-	font-family: 'Special Elite', cursive;
+	font-family: $header-font;
 }
 
 h1.site-title {
-	font-family: 'Special Elite', cursive;
+	font-family: $header-font;
 }
 
 
@@ -44,7 +38,7 @@ input,
 select,
 textarea {
 	color: $dark-background;
-	font-family: 'Forum', serif;
+	font-family: $content-font;
 	font-size: 16px;
 	line-height: 1.5;
 }
