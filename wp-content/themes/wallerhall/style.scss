@@ -18,12 +18,26 @@
 	width: 100%;
 	background: linear-gradient(-15deg, $primary-color, $darker-primary);
 	color: $background;
-	font-weight: 300;
+	font-weight: 400;
 	font-family: $header-font;
+	font-size: $menu-font-size;
 }
 
 h1.site-title {
 	font-family: $header-font;
+	font-size: $header-font-size;
+	
+	padding: 0;
+}
+
+@media (max-width: 768px) {
+	h1.site-title {
+		font-size: $mobile-header-font-size;
+	}
+}
+
+.main-navigation li {
+	font-size: $menu-font-size;
 }
 
 

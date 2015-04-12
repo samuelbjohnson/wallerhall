@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php wp_title( '|', true, 'right' ); ?></title>
 
-    <link href='http://fonts.googleapis.com/css?family=Forum|Special+Elite|Cinzel+Decorative' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Forum|Cinzel' rel='stylesheet' type='text/css'>
     
     <?php wp_head(); ?>
 </head>
