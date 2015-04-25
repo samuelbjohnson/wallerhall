@@ -6,4 +6,5 @@ function theme_enqueue_styles() {
         get_stylesheet_directory_uri() . '/style.css',
         array('parent-style')
     );
+    wp_enqueue_style( 'calendar-style', get_stylesheet_directory_uri() . '/calendar.css');
 }

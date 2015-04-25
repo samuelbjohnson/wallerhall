@@ -1,0 +1,19 @@
+.entry-meta {
+  display: none; }
+
+/* Main calendar table */
+.gce-page-grid .gce-calendar {
+  border: 1px solid #f9cd8c;
+  color: #0d0900; }
+
+/* Day headings (S, M etc.) */
+.gce-page-grid .gce-calendar th {
+  border: 1px solid #f9cd8c; }
+
+/* Day table cells */
+.gce-page-grid .gce-calendar td {
+  border: 1px solid #f9cd8c; }
+
+/* Table cells with events */
+.gce-page-grid .gce-calendar .gce-has-events {
+  color: #f9928c; }
