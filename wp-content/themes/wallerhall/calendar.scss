@@ -25,3 +25,8 @@
 .gce-page-grid .gce-calendar .gce-has-events{ 
 	color: $lighter-primary;
 }
+
+/* Table cell that represents today */
+.gce-page-grid .gce-calendar .gce-today{ 
+	background-color: $not-dark-background;
+}

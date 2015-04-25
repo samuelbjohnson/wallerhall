@@ -17,3 +17,7 @@
 /* Table cells with events */
 .gce-page-grid .gce-calendar .gce-has-events {
   color: #f9928c; }
+
+/* Table cell that represents today */
+.gce-page-grid .gce-calendar .gce-today {
+  background-color: #f9cd8c; }
